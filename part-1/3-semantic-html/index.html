@@ -11,12 +11,12 @@
   </head>
 
   <body>
-    <main class="site-wrapper">
+    <div class="site-wrapper">
       <header class="site-header">
         <div class="site-header__title">Messages</div>
       </header>
 
-      <div class="messages">
+      <main role="main" class="messages">
         <article class="message">
           <div class="message__author">Won</div>
           <p class="message__content">Where should we meet later?</p>
@@ -38,9 +38,9 @@
           </p>
           <time class="message__time" datetime="2018-03-25T19:38">Mar 25, 2018 7:38pm</time>
         </article>
-      </div>
+      </main>
       <div id="result" class="result"></div>
-    </main>
+    </div>
     <script defer src="/js/3-result.js"></script>
   </body>
 </html>
